@@ -1,0 +1,1 @@
+﻿A small utility to make a window to be (or not to be) on top of other windows.
