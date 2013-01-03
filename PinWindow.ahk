@@ -8,6 +8,8 @@ if(!A_IsCompiled)
 }
 ; Disable standard menu items
 Menu, tray, NoStandard
+; Create Help menu item
+Menu, tray, add, Help, ShowHelp
 ; Create Exit menu item
 Menu, tray, add, Exit, ExitScript
 
@@ -17,6 +19,10 @@ Menu, tray, add, Exit, ExitScript
   MouseGetPos, OutputVarX, OutputVarY, hWnd
   ; Toggle the window's AlwaysOnTop attribute
   WinSet, AlwaysOnTop, Toggle, ahk_id %hWnd%
+return
+
+ShowHelp:
+  msgbox, Hold Win button and click anywhere in the window you want to pin on top of other windows.`nUse the same action (Win+left button click) to unpin a pinned window.
 return
 
 ; 'Exit' menu item subroutine
