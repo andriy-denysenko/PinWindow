@@ -1,5 +1,6 @@
 ﻿A small utility to make a window to be (or not to be) on top of other windows.
-No installation required.
+No installation required for an exe-file.
+To use the script (an ahk file), please download and install AutoHotkey from http://www.autohotkey.com
 
 Usage:
 Hold Win button and click anywhere in the window you want to pin on top of other windows.
